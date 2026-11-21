@@ -16,7 +16,6 @@
 
 <body>
 
-    <!-- LANDING PAGE -->
     <section id="landing" class="page active">
 
 
@@ -47,8 +46,6 @@
 
     </section>
 
-
-    <!-- MAIN MENU -->
     <section id="menu" class="page">
 
         <div class="container">
@@ -72,11 +69,8 @@
 
     </section>
 
-
-    <!-- HOME PAGE -->
     <section id="home" class="page art-page">
 
-        <!-- LEFT SIDEBAR -->
         <aside class="prototype-sidebar">
 
             <h2 class="sidebar-logo">
@@ -110,7 +104,6 @@
 
         </aside>
 
-        <!-- HOME CONTENT -->
         <main class="prototype-main">
 
             <h1 class="main-story-title">
@@ -154,8 +147,6 @@
 
     </section>
 
-
-    <!-- ART 1 PAGE -->
     <section id="art1" class="page art-page">
 
         <aside class="prototype-sidebar">
@@ -293,8 +284,6 @@
 
     </section>
 
-
-    <!-- ART 2 PAGE -->
     <section id="art2" class="page art-page">
 
         <aside class="prototype-sidebar">
@@ -451,8 +440,6 @@
 
     </section>
 
-
-    <!-- ART 3 PAGE -->
     <section id="art3" class="page art-page">
 
         <aside class="prototype-sidebar">
@@ -563,20 +550,22 @@
 
     </section>
 
-<!-- ABOUT / DOCUMENTARY PAGE -->
 <section id="about" class="page">
 
     <div class="about-container">
         <h1 class="about-title">ABOUT ANO ANG SA IDALUM SANG TUBIG</h1>
+                        
+            <div class="documentary-video">
+                <iframe
+                    src="https://player.vimeo.com/video/1248891574?autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                    title="Batad">
+                </iframe>
+            </div>
 
-        <div class="about-video">
-            <video controls>
-                <source src="videos/batad.mp4" type="video/mp4">
-                Your browser does not support video playback.
-            </video>
-        </div>
-
-        <!-- PHOTO GRID -->
         <div class="about-photo-grid">
 
             <div class="about-photo-card">
@@ -612,7 +601,6 @@
             </div>
         </div>
 
-        <!-- DESCRIPTION -->
         <div class="about-description">
             <h2>Where The Hills Meet The Harvest</h2>
             <p>
@@ -632,7 +620,6 @@
             </p>
         </div>
 
-        <!-- GOOGLE MAPS -->
         <div class="location-section">
 
     <h2>Explore Our Location</h2>
@@ -684,7 +671,6 @@
 
             </div>
 
-        <!-- BACK TO MENU -->
         <button onclick="showPage('menu')" class="about-back-btn">
             BACK TO MENU
         </button>
@@ -695,7 +681,6 @@
 
 </section>
 
-    <!-- SEARCH PAGE -->
     <section id="search" class="page">
 
         <div class="container">
@@ -725,11 +710,8 @@
 
     </section>
 
-
-    <!-- JAVASCRIPT -->
     <script>
 
-        // CHANGE WEBSITE PAGES
         function showPage(pageId) {
 
             document.querySelectorAll('.page').forEach(page => {
@@ -745,8 +727,6 @@
             window.scrollTo(0, 0);
         }
 
-
-        // SEARCH FUNCTION
         function searchContent() {
 
             let input = document

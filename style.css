@@ -2,9 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500;600&display=swap');
 
-
-/* GENERAL SETTINGS */
-
 * {
     margin: 0;
     padding: 0;
@@ -25,8 +22,6 @@ body {
     display: flex;
 }
 
-
-/* LANDING PAGE */
 
 #landing {
     width: 100%;
@@ -135,7 +130,7 @@ body {
 .red-line {
     width: 100%;
     height: 12px;
-    background: #ff4e58;
+    background: #c46d0b;
     margin: 20px auto;
 }
 
@@ -148,7 +143,7 @@ body {
 .start-button {
     margin-top: 30px;
     padding: 14px 35px;
-    background: #ff4e58;
+    background: #c46d0b;
     color: white;
     border: none;
     font-size: 15px;
@@ -206,8 +201,6 @@ body {
 }
 
 
-/* GENERAL CONTENT PAGES */
-
 #menu,
 #home,
 #about,
@@ -220,11 +213,11 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 40%;
     max-width: 850px;
-    background: white;
-    padding: 45px;
-    border-radius: 8px;
+    background: rgb(233, 219, 181);
+    padding: 30px;
+    border-radius: 15px;
     text-align: center;
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
 }
@@ -257,7 +250,7 @@ body {
 
 .container button {
     padding: 13px 28px;
-    background: #d95757;
+    background: #c46d0b;
     color: white;
     border: none;
     cursor: pointer;
@@ -278,9 +271,6 @@ body {
 }
 
 
-
-/* MAIN MENU BACKGROUND IMAGE */
-
 #menu {
     background-image: url("image/Main.jpg");
     background-size: cover;
@@ -293,16 +283,13 @@ body {
 }
 
 
-
-/* HOME PAGE */
-
 #home {
     display: none;
     justify-content: center;
     align-items: stretch;
     padding: 35px;
     background: #ffffff;
-    color: #302C25;
+    color: #000000;
 }
 
 #home.active {
@@ -310,33 +297,33 @@ body {
 }
 
 #home .prototype-sidebar {
-    background: #24352D;
-    color: #F5EFE3;
+    background: #e9dbb5;
+    color: #000000;
 }
 
 #home .prototype-sidebar h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    color: #E9D5AE;
+    color: #000000;
 }
 
 #home .prototype-nav button {
     font-family: 'Lora', serif;
-    color: #F5EFE3;
+    color: #000000;
     transition: 0.3s ease;
-}
+} 
 
 #home .prototype-nav button:hover,
 #home .prototype-nav button.active {
-    color: #E9D5AE;
-    background: #3C493E;
+    color: #ffffff;
+    background:     #3C493E;
 }
 
 #home .main-story-title {
     font-family: 'Playfair Display', serif;
     font-size: 48px;
     font-weight: 800;
-    color: #302C25;
+    color: #000000;
     line-height: 1.2;
 }
 
@@ -351,13 +338,13 @@ body {
     font-family: 'Lora', serif;
     font-size: 16px;
     line-height: 1.8;
-    color: #514B40;
+    color: #000000;
 }
 
 #home .prototype-sidebar .sidebar-line,
 #home .prototype-main hr {
-    border-color: #B89A60;
-    background-color: #B89A60;
+    border-color: #614805;
+    background-color:#614805;
 }
 
 .story-layout {
@@ -456,9 +443,6 @@ body {
     display: block;
 }
 
-
-/* ART PAGES */
-
 .art-page {
     display: none;
     width: 100%;
@@ -474,10 +458,10 @@ body {
 }
 
 .prototype-sidebar {
-    width: 245px;
+    width: 250px;
     min-width: 245px;
     min-height: 100vh;
-    background: #252b27;
+    background: #e9dbb5;
     padding: 40px 25px;
     display: flex;
     flex-direction: column;
@@ -489,7 +473,7 @@ body {
     font-family: 'Cinzel Decorative', serif;
     font-size: 18px;
     line-height: 2;
-    color: #e9d9b8;
+    color: #000000;
     letter-spacing: 1px;
     margin-bottom: 25px;
 }
@@ -497,7 +481,7 @@ body {
 .sidebar-line {
     width: 100%;
     height: 1px;
-    background: #000000;
+    background: #614805;
     margin-bottom: 25px;
 }
 
@@ -515,7 +499,7 @@ body {
     background: transparent;
     border: none;
     border-left: 3px solid transparent;
-    color: #f4ebdd;
+    color: #000000;
     font-family: Georgia, serif;
     font-size: 14px;
     line-height: 1.5;
@@ -550,8 +534,8 @@ body {
 .art-page .prototype-main > h1 {
     font-family: "Arial", serif;
     font-size: 50px;
-    color: #0a0908;
-    border-bottom: 2px solid #a98b62;
+    color: #000000;
+    border-bottom: 2px solid #614805;
     padding-bottom: 15px;
     margin-bottom: 25px;
 }
@@ -616,8 +600,6 @@ body {
 }
 
 
-/* ABOUT PAGE */
-
 #about {
     background: #F5EFE3;
     padding: 40px 25px;
@@ -677,7 +659,7 @@ body {
 .about-photo-card h3,
 .about-feature h3 {
     font-family: 'Playfair Display', serif;
-    color: #24352D;
+    color: #000000;
     margin-top: 12px;
     margin-bottom: 8px;
 }
@@ -784,9 +766,6 @@ body {
     background: #B89A60;
 }
 
-
-/* VIDEO AND SEARCH */
-
 .video-container {
     width: 100%;
     margin: 25px auto;
@@ -827,9 +806,6 @@ body {
     border-radius: 5px;
 }
 
-
-/* CREDITS */
-
 .content {
     min-height: 100vh;
     display: flex;
@@ -840,7 +816,7 @@ body {
     margin-top: auto;
     padding-top: 60px;
     padding-bottom: 35px;
-    text-align: center;
+    text-align: left;
     line-height: 2;
 }
 
@@ -859,8 +835,25 @@ body {
     font-size: 18px;
 }
 
+.documentary-video {
+    width: 100%;
+    max-width: 960px;
+    aspect-ratio: 16 / 9;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #000;
+}
 
-/* MOBILE RESPONSIVENESS */
+.documentary-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
 @media (max-width: 700px) {
 
